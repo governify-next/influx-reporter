@@ -35,10 +35,12 @@
     },
     "homepage": "https://github.com/governify-next/base#readme",
     "dependencies": {
+        "@influxdata/influxdb3-client": "2.4.0",
         "dotenv": "^17.2.3",
         "express": "^5.2.1",
         "express-validator": "^7.3.1",
         "helmet": "^8.1.0",
+        "kafkajs": "2.2.4",
         "mongoose": "^9.0.2",
         "swagger-jsdoc": "^6.2.8",
         "swagger-ui-express": "^5.0.1",
