@@ -1,6 +1,7 @@
-# Express TypeScript Boilerplate
+# Influx Reporter
 
-A layered Express API boilerplate with TypeScript (Requires Node.js 24+ and MongoDB)
+Consumes State events from Kafka and writes State and metric projections to InfluxDB 3.
+Requires Node.js 24+, Kafka, and InfluxDB 3.
 
 ## Scripts
 
@@ -15,9 +16,9 @@ A layered Express API boilerplate with TypeScript (Requires Node.js 24+ and Mong
 - Centralized error handling
 - Standardized API responses
 - Environment variable management with dotenv
-- MongoDB integration with Mongoose
+- Kafka consumer and InfluxDB writer
 - Structured logging with tags
-- Layered architecture (routes, controllers, services, models)
+- Health check API and event processing services
 - TypeScript for type safety
 - ESLint and Prettier for code quality and formatting
 - Unit tests with Vitest
@@ -25,7 +26,6 @@ A layered Express API boilerplate with TypeScript (Requires Node.js 24+ and Mong
 - Health check endpoint
 - Husky pre-commit hooks
 - Dockerfile for containerization
-- Request validation with Express Validator
 - Graceful shutdown handling XXXXXXXXXXXXXX
 - Rate limiting middleware XXXXXXXXXXXXXXXXXXXXXX
 - Helmet for security headers

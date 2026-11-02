@@ -9,7 +9,6 @@ export const bootEnv = {
     GOV_LOG_LEVEL: process.env.GOV_LOG_LEVEL || 'INFO',
     GOV_SERVICE_NAME: process.env.GOV_SERVICE_NAME || 'UnknownService',
     PORT: process.env.PORT || '3000',
-    MONGO_URI: process.env.MONGO_URI || 'mongodb://localhost:27017/mern_example',
     KAFKA_BOOTSTRAP_SERVERS: process.env.KAFKA_BOOTSTRAP_SERVERS || 'localhost:9092',
     KAFKA_CLIENT_ID: process.env.KAFKA_CLIENT_ID || 'governify-influx-reporter',
     KAFKA_CONSUMER_GROUP_ID: process.env.KAFKA_CONSUMER_GROUP_ID || 'governify-influx-reporter',
